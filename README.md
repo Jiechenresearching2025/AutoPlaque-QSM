@@ -28,24 +28,24 @@ DetectionOfBetaAmyloid/
 
 ### 2. Installation
 1. Clone the repository to your local machine:
-   \`\`\`bash
+   
    git clone https://github.com/Jiechenresearching2025/AutoPlaque-QSM.git
    cd AutoPlaque-QSM
-   \`\`\`
+   
 2. (Optional) Run the restructuring script to ensure folders are set up correctly:
-   \`\`\`bash
+   
    chmod +x setup_project.sh
    ./setup_project.sh
-   \`\`\`
+   
 
 ### 3. Usage
 1. Open MATLAB and navigate to the project root.
 2. Edit \`main.m\` to configure your data paths:
-   \`\`\`matlab
+   
    cfg.path.parent = '/path/to/your/QSM_Data'; 
    cfg.pattern.qsm = 'qsm_mean2.nii';
-   \`\`\`
-3. Run \`main.m\`. The script will:
+   
+3. Run main.m. The script will:
    - Automatically add all sub-folders to the MATLAB path.
    - Scan for subject folders containing both QSM and Label files.
    - Process each slice and save results in a \`Results\` sub-folder for each subject.
