@@ -12,14 +12,13 @@ Designed for high-resolution **9.4T Bruker MRI** data, the framework utilizes **
 - **ROI-specific Metrics**: Provides detailed quantification (volume and susceptibility) for specific brain labels.
 
 ## Directory Structure
-\`\`\`text
+```text
 DetectionOfBetaAmyloid/
 ├── main.m                 # Entry point: User configuration and batch scheduling
 ├── algorithms/            # Core Algorithms: GoDec, RXD, SVD Rank Estimation
 ├── core/                  # Pipeline Logic: Subject orchestration and file discovery
 ├── utils/                 # Helper Functions: NIfTI I/O, Masking, and Table Init
 └── setup_project.sh       # Automation script for directory restructuring
-\`\`\`
 
 ## Getting Started
 
